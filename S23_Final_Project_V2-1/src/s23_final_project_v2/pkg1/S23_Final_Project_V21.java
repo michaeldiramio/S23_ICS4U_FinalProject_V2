@@ -5,6 +5,8 @@
  */
 package s23_final_project_v2.pkg1;
 
+import DLibX.*;
+
 /**
  *
  * @author diramim
@@ -15,7 +17,9 @@ public class S23_Final_Project_V21 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Testing 123");
+        DConsole dc = new DConsole();
+        dc.fillEllipse(200, 100, 20, 90);
+        dc.redraw();
     }
     
 }
