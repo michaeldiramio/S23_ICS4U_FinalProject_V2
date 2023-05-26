@@ -19,6 +19,7 @@ public class S23_Final_Project_V21 {
     public static void main(String[] args) {
         DConsole dc = new DConsole();
         dc.fillEllipse(200, 100, 20, 90);
+        dc.fillRect(350, 250, 80, 90);
         dc.redraw();
     }
     
